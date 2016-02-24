@@ -1,0 +1,354 @@
+
+
+html {
+height: 100%;
+overflow-x: hidden;
+}
+
+body{
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/***********************************************/
+
+/*PARALLAS*/
+
+.slide8 {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+  transform-style: inherit;
+}
+
+.slide {
+  position: relative;
+  padding: 20vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right:0;
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+#title {
+ background-image: url(fondo1.jpg);
+   background-attachment: fixed;  
+}
+
+#slide1:before {
+  background-color: #fff;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+font-family: 'Raleway', sans-serif;
+}
+
+#slide2 {
+ background-image: url(fondo1.jpg);
+ background-attachment: fixed;
+}
+
+#slide3:before {
+   background-color:  #fff;
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+
+#slide4 {
+  background-image: url(fondo1.jpg);
+}
+
+/***********************************************/
+
+/*MENU*/
+
+.logo{
+  float: left;
+  padding-top: 0.8rem;
+  padding-left: 1rem;
+  }
+
+.header {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+    height: 5rem;
+    width: 100%;
+
+}
+.header ul{
+display: flex;
+float: right;
+list-style: none;
+padding-top: 0.8rem;
+padding-right: 1.5rem;}
+
+.header ul a{
+  color: #fff;
+  font-size: .8rem;
+  letter-spacing: .2rem;
+  line-height: 2.2;
+  margin: auto .4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem;}
+
+.header ul a:hover{
+  opacity: 0.5;
+}
+
+/***********************************************/
+
+/*BRANDING*/
+
+.branding ul{
+list-style: none;
+display: flex;
+}
+
+.branding li{
+padding: 3rem 0rem 0 5.5rem;
+}
+
+.titular{
+margin-bottom: 80px;
+font-size: 14px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+color: #000;
+}
+
+.br{
+margin-left: 130px;
+margin-top: 100px;
+font-size: 14px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+color: #000;
+}
+
+/**********************************/
+
+/*TIPOGRAFÍAS*/
+
+.tp{
+margin-bottom: 100px;
+font-size: 14px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+color: #000;
+}
+
+.tipo{
+color:#fff;
+margin:0 0 0 8px;
+}
+
+.montserrat a{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+color: #000;
+text-align: left;
+margin-left: 0px;
+font-size: 20px;
+}
+
+.titulos section {
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+color: #000;
+text-align: left;
+margin-top: 20px;
+margin-left: 0px;
+border-bottom: 1px solid;
+border-top: 1px solid;
+width: 1000px;
+}
+
+.parrafo p{
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+color: #000;
+text-align: left;
+text-align: justify;
+margin-top: 20px;
+margin-left: 0px;
+width: 1000px;
+}
+
+/**********************************/
+
+/*COLORES*/
+
+.color{
+width: 250px;
+height:100px;
+float: left;}
+
+.primero{
+background-color:#000000;
+}
+.segundo{
+background-color:#f8f0de;
+}
+.tercero{
+background-color:#9b8441;
+}
+.cuarto{
+background-color:#68a12f;
+}
+.quinto{
+background-color:#ab0735;
+}
+.sexto{
+background-color:#7c1b2d; 
+}
+.septimo{
+background-color:#723449;
+}
+.octavo{
+background-color:#45935b;
+}
+
+.color p{
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+color: #fff;
+text-align: center;
+padding-top: 30px;
+}
+
+
+/**********************************/
+
+/*BOTONES*/
+
+.botones{
+width: 200px;
+height: 50px;
+display: flex;
+list-style: none;
+float: left;}
+
+
+.btn1 p{
+padding-left: 70px;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+color: #fff;}
+
+.btn1{
+background-color: #ab0735;
+border-radius: 5px;}
+
+.btn2 p{
+padding-left: 70px;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+color: #fff;}
+
+.btn2{
+background-color: #9b8441;
+margin-left: 15px;
+border-radius: 5px;}
+
+.btn3{
+border-style: solid inset;
+border-color: #723449;
+margin-left: 15px;
+border-radius: 5px;
+font-weight: bold;}
+
+
+.btn3 p{
+padding-left: 70px;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+color: #000;}
+
+.btn div:hover{
+ color: #0cb0d4; }
+
+/**********************************/
+
+/*CONTACTO*/
+
+
+.frml{
+font-size: 14px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+color: #000;
+}
+
+
+.formulario{
+width: 800px;
+height: 45px;
+background: #fff;
+margin-top: 25px;
+float: left;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+color: #a3aaab;
+text-align: left;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.2rem;
+}
+
+.formulario p{
+margin-left: 10px;
+}
+
+.cnt {
+height: 150px;
+}
+
+.enviar{
+width: 150px;
+height: 50px;
+background: #ab0735;
+margin-right: 295px;
+margin-top: 25px;
+float: right;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+color: #fff;
+text-align: center;
+}
+
+/**********************************/
+
