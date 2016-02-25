@@ -1,5 +1,7 @@
 
 
+
+
 html {
 height: 100%;
 overflow-x: hidden;
@@ -226,7 +228,7 @@ background-color:#f8f0de;
 background-color:#9b8441;
 }
 .cuarto{
-background-color:#68a12f;
+background-color:#edce8c
 }
 .quinto{
 background-color:#ab0735;
@@ -238,7 +240,7 @@ background-color:#7c1b2d;
 background-color:#723449;
 }
 .octavo{
-background-color:#45935b;
+background-color:#FFF;
 }
 
 .color p{
@@ -269,7 +271,7 @@ font-size: 15px;
 color: #fff;}
 
 .btn1{
-background-color: #ab0735;
+background-color: #723449;
 border-radius: 5px;}
 
 .btn2 p{
@@ -340,7 +342,7 @@ height: 150px;
 .enviar{
 width: 150px;
 height: 50px;
-background: #ab0735;
+background: #723449;
 margin-right: 295px;
 margin-top: 25px;
 float: right;
@@ -351,4 +353,6 @@ text-align: center;
 }
 
 /**********************************/
+
+
 
