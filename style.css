@@ -1,7 +1,5 @@
 
 
-
-
 html {
 height: 100%;
 overflow-x: hidden;
@@ -63,30 +61,30 @@ body{
 }
 
 #title {
- background-image: url(fondo1.jpg);
+background-color: #fff;
    background-attachment: fixed;  
 }
 
 #slide1:before {
-  background-color: #fff;
+  background-color:  #9a4846;
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 font-family: 'Raleway', sans-serif;
 }
 
 #slide2 {
- background-image: url(fondo1.jpg);
+background-color: #fff;
  background-attachment: fixed;
 }
 
 #slide3:before {
-   background-color:  #fff;
+   background-color: #9a4846;
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide4 {
-  background-image: url(fondo1.jpg);
+background-color: #fff;
 }
 
 /***********************************************/
@@ -101,7 +99,7 @@ font-family: 'Raleway', sans-serif;
 
 .header {
     font-family: 'Raleway', sans-serif;
-    background-color: #000;
+    background-color: #fff;
     height: 5rem;
     width: 100%;
 
@@ -114,7 +112,7 @@ padding-top: 0.8rem;
 padding-right: 1.5rem;}
 
 .header ul a{
-  color: #fff;
+  color: #000;
   font-size: .8rem;
   letter-spacing: .2rem;
   line-height: 2.2;
@@ -141,12 +139,21 @@ padding: 3rem 0rem 0 5.5rem;
 }
 
 .titular{
-margin-bottom: 80px;
+margin-bottom: 50px;
 font-size: 14px;
 font-family: 'Raleway', sans-serif;
 letter-spacing: 0.5rem;
 text-transform: uppercase;
 color: #000;
+}
+
+.titular4 {
+font-size: 14px;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 0.5rem;
+text-transform: uppercase;
+color: #000;
+
 }
 
 .br{
@@ -169,7 +176,7 @@ font-size: 14px;
 font-family: 'Raleway', sans-serif;
 letter-spacing: 0.5rem;
 text-transform: uppercase;
-color: #000;
+color: #fff;
 }
 
 .tipo{
@@ -180,7 +187,7 @@ margin:0 0 0 8px;
 .montserrat a{
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
-color: #000;
+color: #fff;
 text-align: left;
 margin-left: 0px;
 font-size: 20px;
@@ -189,7 +196,7 @@ font-size: 20px;
 .titulos section {
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
-color: #000;
+color: #fff;
 text-align: left;
 margin-top: 20px;
 margin-left: 0px;
@@ -201,7 +208,7 @@ width: 1000px;
 .parrafo p{
 font-family: 'Raleway', sans-serif;
 font-weight: 400;
-color: #000;
+color: #fff;
 text-align: left;
 text-align: justify;
 margin-top: 20px;
@@ -221,26 +228,18 @@ float: left;}
 .primero{
 background-color:#000000;
 }
-.segundo{
-background-color:#f8f0de;
-}
 .tercero{
-background-color:#9b8441;
-}
-.cuarto{
-background-color:#edce8c
-}
-.quinto{
-background-color:#ab0735;
+background-color:#cfc19d;
 }
 .sexto{
-background-color:#7c1b2d; 
+background-color:#9a4846; 
 }
 .septimo{
-background-color:#723449;
+background-color:#cea7a6;
 }
 .octavo{
 background-color:#FFF;
+
 }
 
 .color p{
@@ -256,103 +255,114 @@ padding-top: 30px;
 
 /*BOTONES*/
 
-.botones{
-width: 200px;
-height: 50px;
-display: flex;
-list-style: none;
-float: left;}
+  .btn-forma{
+    background-color: #955251;
+    padding: 10px 50px 20px 20px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 
 
-.btn1 p{
-padding-left: 70px;
-font-family: 'Raleway', sans-serif;
-font-size: 15px;
-color: #fff;}
-
-.btn1{
-background-color: #723449;
-border-radius: 5px;}
-
-.btn2 p{
-padding-left: 70px;
-font-family: 'Raleway', sans-serif;
-font-size: 15px;
-color: #fff;}
-
-.btn2{
-background-color: #9b8441;
-margin-left: 15px;
-border-radius: 5px;}
-
-.btn3{
-border-style: solid inset;
-border-color: #723449;
-margin-left: 15px;
-border-radius: 5px;
-font-weight: bold;}
-
-
-.btn3 p{
-padding-left: 70px;
-font-family: 'Raleway', sans-serif;
-font-size: 15px;
-color: #000;}
-
-.btn div:hover{
- color: #0cb0d4; }
 
 /**********************************/
 
 /*CONTACTO*/
 
 
-.frml{
-font-size: 14px;
-font-family: 'Raleway', sans-serif;
-letter-spacing: 0.5rem;
-text-transform: uppercase;
-color: #000;
+  .register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    opacity:0.9;
+    background-image: url('img/form-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .form{
+    margin-top: 100px;
+    padding: 30px 100px;
+    width: 50%;
+    background-color: white;
+    margin-bottom: 100px;
+  }
+
+  label{
+    font-family: 'Raleway';
+    font-size: 1rem;
+    margin-top: 2rem; 
+  }
+
+  input, textarea{
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    height: 40px;
+    width: 70%;
+    min-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    box-sizing: border-box;
+  }
+
+  .btn-form{
+    background-color: #955251;
+    padding: 10px 50px 20px 20px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    min-width: 300px;
+    width: 70%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .form-checkbox{
+    display: flex;
+    width: 60%;
+    min-width: 300px;
+    height: 80px;
+  }
+
+
+  textarea {
+    outline: none;
+    height: 90px;
+  }
+
 }
 
 
-.formulario{
-width: 800px;
-height: 45px;
-background: #fff;
-margin-top: 25px;
-float: left;
-font-family: 'Raleway', sans-serif;
-font-size: 15px;
-color: #a3aaab;
-text-align: left;
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 0.2rem;
+.register-confirm-container{
+  background-color: #9F504E;
+  margin: 0px;
+  line-height: 2rem;
 }
 
-.formulario p{
-margin-left: 10px;
+.p-confirmation{
+  padding-top: 200px;
+  display: flex;
+  align-items: space-around;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+
 }
 
-.cnt {
-height: 150px;
-}
-
-.enviar{
-width: 150px;
-height: 50px;
-background: #723449;
-margin-right: 295px;
-margin-top: 25px;
-float: right;
-font-family: 'Raleway', sans-serif;
-font-size: 15px;
-color: #fff;
-text-align: center;
-}
 
 /**********************************/
-
-
 
